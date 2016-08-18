@@ -1,0 +1,23 @@
+{
+  "name": "joker-pokemons-component",
+  "version": "0.0.1",
+  "description": "Pokemons in CSS component",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joker-solutions/joker-pokemons-component.git"
+  },
+  "keywords": [
+    "pokemons",
+    "css"
+  ],
+  "author": "Hemerson Vianna <hemerson.lourenco@gmail.com> (http://descco.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joker-solutions/joker-pokemons-component/issues"
+  },
+  "homepage": "https://github.com/joker-solutions/joker-pokemons-component#readme"
+}
