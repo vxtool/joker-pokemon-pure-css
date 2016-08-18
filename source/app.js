@@ -1,12 +1,12 @@
 'use strict';
 
 import React from 'react';
-import Pikachu from './025-pikachu';
+import Weedle from './013-weedle';
 
 const App = () => (
   <div>
-    <h1>Pokemons</h1>
-    <Pikachu />
+    <h1>Pokémons</h1>
+    <Weedle />
   </div>
 )
 

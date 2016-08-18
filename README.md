@@ -18,7 +18,7 @@ npm start
 ## Design references
 
 - [Pokedex](http://www.pokemon.com/br/pokedex/)
-
+- [Pinterest](https://br.pinterest.com/search/pins/?q=pokemons&rs=typed&0=pokemons%7Ctyped)
 
 ## Contributing
 
