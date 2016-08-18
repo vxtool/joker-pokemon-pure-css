@@ -3,6 +3,23 @@
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/joker-solutions/joker-pokemons-component.svg?style=flat-square)](https://github.com/joker-solutions/joker-pokemons-component/issues)
 
+## Install
+
+```bash
+npm install
+```
+
+## Usage
+
+```bash 
+npm start
+```
+
+## Design references
+
+- [Pokedex](http://www.pokemon.com/br/pokedex/)
+
+
 ## Contributing
 
 - Fork it!
