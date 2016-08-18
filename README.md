@@ -15,10 +15,9 @@ npm install
 npm start
 ```
 
-## Design references
+## Pokémons
 
-- [Pokedex](http://www.pokemon.com/br/pokedex/)
-- [Pinterest](https://br.pinterest.com/search/pins/?q=pokemons&rs=typed&0=pokemons%7Ctyped)
+- [013 - Weedle](resources/013-weedle.png)
 
 ## Contributing
 
