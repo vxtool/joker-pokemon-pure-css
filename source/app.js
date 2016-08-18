@@ -1,10 +1,13 @@
 'use strict';
 
 import React from 'react';
-import Pikachu from './001-pikachu';
+import Pikachu from './025-pikachu';
 
 const App = () => (
-  <div>Pokemons</div>
+  <div>
+    <h1>Pokemons</h1>
+    <Pikachu />
+  </div>
 )
 
 export default App;

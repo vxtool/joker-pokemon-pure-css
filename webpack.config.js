@@ -20,16 +20,31 @@ module.exports = validate({
     publicPath: '/dist/'
   },
 
+  resolve: {
+    modulesDirectories: [
+      'node_modules'
+    ],
+    extensions: ['', '.js', '.jsx', '.scss']
+  },
+
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
 
   module: {
-    loaders: [{
+    loaders: [
+    {
+      test: /\.scss$/,
+      exclude: /node_modules/,
+      include: /source/,
+      loaders: ["style", "css", "sass?outputStyle=expanded"]
+    },
+    {
       test: /\.js$/,
       exclude: /node_modules/,
       include: /source/,
       loader: 'babel'
-    }]
+    }
+    ]
   }
 })
