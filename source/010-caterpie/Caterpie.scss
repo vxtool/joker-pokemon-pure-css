@@ -3,11 +3,43 @@
 .caterpie {
   @extend %size;
 
+  // background: transparent url("../../resources/010-caterpie.png") repeat scroll 51% 33% / 360% auto;
+
   > .head {
     background: #8dc961;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 112px;
+    margin-left: -66px;
+    position: relative;
+    left: 43%;
+    top: 36px;
+    width: 132px;
+
+    > .eye-left {
+
+    }
+
+    > .eye-right {
+      background: #ede582;
+      border-radius: 50%;
+      height: 47px;
+      position: absolute;
+      right: 0;
+      top: 23px;
+      transform: rotate(-12deg);
+      width: 27px;
+
+      &:before {
+        background: #000;
+        border-radius: 50%;
+        content: "";
+        display: inline-block;
+        height: 42px;
+        margin-left: 5px;
+        margin-top: 3px;
+        width: 20px;
+      }
+    }
   }
 
   > .body {
