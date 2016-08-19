@@ -1,11 +1,11 @@
 import React, { Component, PropTypes } from 'react';
-import './Weedle.scss';
+import './Metapod.scss';
 
-class Weedle extends Component {
+class Metapod extends Component {
   render() {
     return (
       <div className="pokemon">
-        <div className="weedle">
+        <div className="metapod">
           <div className="head">
 
           </div>
@@ -18,4 +18,4 @@ class Weedle extends Component {
   }
 }
 
-export default Weedle;
+export default Metapod;

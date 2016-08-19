@@ -1,11 +1,11 @@
 import React, { Component, PropTypes } from 'react';
-import './Weedle.scss';
+import './Caterpie.scss';
 
-class Weedle extends Component {
+class Caterpie extends Component {
   render() {
     return (
       <div className="pokemon">
-        <div className="weedle">
+        <div className="caterpie">
           <div className="head">
 
           </div>
@@ -18,4 +18,4 @@ class Weedle extends Component {
   }
 }
 
-export default Weedle;
+export default Caterpie;
