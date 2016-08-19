@@ -7,8 +7,10 @@ class Caterpie extends Component {
       <div className="pokemon">
         <div className="caterpie">
           <div className="head">
+            <div className="horn"></div>
             <div className="eye-left"></div>
             <div className="eye-right"></div>
+            <div className="mouth"></div>
           </div>
           <div className="body">
 
