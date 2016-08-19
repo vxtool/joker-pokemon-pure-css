@@ -5,6 +5,14 @@ class Weedle extends Component {
   render() {
     return (
       <div className="pokemon">
+        <div className="weedle">
+          <div className="head">
+
+          </div>
+          <div className="body">
+
+          </div>
+        <div>
       </div>
     );
   }

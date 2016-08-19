@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Weedle from './013-weedle';
+import './App.scss';
 
 const App = () => (
   <div>
