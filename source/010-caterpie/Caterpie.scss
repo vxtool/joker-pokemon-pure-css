@@ -1,6 +1,13 @@
-.caterpie {
-  > .head {
+@import '../pokemon.scss';
 
+.caterpie {
+  @extend %size;
+
+  > .head {
+    background: #8dc961;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
   }
 
   > .body {

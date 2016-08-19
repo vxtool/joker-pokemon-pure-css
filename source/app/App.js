@@ -18,8 +18,8 @@ import Flareon from '../136-flareon';
 import './App.scss';
 
 const App = () => (
-  <div>
-    <h1>Pokémons</h1>
+  <div className="container">
+    <h1 className="title">Pokémons</h1>
     <Caterpie />
     <Metapod />
     <Weedle />
