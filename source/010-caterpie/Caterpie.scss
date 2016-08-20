@@ -1,4 +1,5 @@
-@import '../pokemon.scss';
+@import '../Pokemon.scss';
+@import './Config.scss';
 
 .caterpie {
   @extend %size;
@@ -6,8 +7,9 @@
   // background: transparent url("../../resources/010-caterpie.png") repeat scroll 51% 33% / 360% auto;
 
   > .head {
-    background: #8dc961;
+    background: map-get($colors, primary);
     border-radius: 50%;
+    box-shadow: inset -2px 1px 10px rgba(0, 0, 0, 0.4);
     height: 112px;
     margin-left: -66px;
     position: relative;
@@ -16,7 +18,7 @@
     width: 132px;
 
     > .horn {
-      background: #f68845;
+      @extend %horn;
       border-radius: 30% 30% 50% 50%;
       height: 26px;
       margin-left: -27px;
@@ -25,61 +27,98 @@
       top: 30px;
       transform: rotate(-10deg);
       width: 16px;
+
+      &:before {
+        @extend %pseudo;
+        @extend %horn;
+        border-radius: 30% 30% 50% 50%;
+        height: 58px;
+        left: -20px;
+        top: -40px;
+        transform: rotate(-234deg);
+        width: 19px;
+      }
+
+      &:after {
+        @extend %pseudo;
+        @extend %horn;
+        border-radius: 30% 30% 50% 50%;
+        height: 50px;
+        right: -18px;
+        top: -23px;
+        transform: rotate(80deg);
+        width: 16px;
+      }
     }
 
     > .eye-left {
-      background: #ede582;
-      border-radius: 50%;
+      @extend %eye;
       height: 33px;
-      position: absolute;
       left: 5px;
       top: 23px;
       transform: rotate(17deg);
       width: 6px;
 
       &:before {
-        background: #000;
-        border-radius: 50%;
-        content: "";
-        display: inline-block;
+        @extend %pseudo;
+        @extend %eyeBefore;
         height: 27px;
-        margin-top: 3px;
+        top: 3px;
         width: 3px;
       }
     }
 
     > .eye-right {
-      background: #ede582;
-      border-radius: 50%;
+      @extend %eye;
       height: 47px;
-      position: absolute;
       right: 0;
       top: 23px;
       transform: rotate(-12deg);
       width: 27px;
 
       &:before {
-        background: #000;
-        border-radius: 50%;
-        content: "";
-        display: inline-block;
+        @extend %pseudo;
+        @extend %eyeBefore;
         height: 42px;
-        margin-left: 5px;
-        margin-top: 3px;
+        left: 5px;
+        top: 3px;
         width: 20px;
       }
 
       &:after {
-        background: #73746a;
+        @extend %pseudo;
+        background: map-get($colors, eyeLight);
         border-radius: 50%;
-        content: "";
-        display: inline-block;
         height: 17px;
-        position: absolute;
         top: 6px;
         right: 3px;
         transform: rotate(-13deg);
         width: 6px;
+      }
+    }
+
+    > .mouth {
+      background: map-get($colors, primary);
+      border-radius: 50%;
+      box-shadow: inset 6px -3px 8px rgba(0, 0, 0, 0.4), inset -7px -9px 8px rgba(0, 0, 0, 0.4);
+      height: 42px;
+      margin-left: -49px;
+      position: absolute;
+      left: 50%;
+      bottom: 1px;
+      transform: rotate(11deg);
+      width: 74px;
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border-radius: 50%;
+        box-shadow: inset 2px -1px 6px rgba(0, 0, 0, 0.4), -3px -1px 3px rgba(0, 0, 0, 0.4);
+        height: 50px;
+        left: 20px;
+        top: 5px;
+        transform: rotate(90deg);
+        width: 28px;
       }
     }
   }

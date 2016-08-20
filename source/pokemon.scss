@@ -10,3 +10,10 @@
     transform: scale(0.5);
   }
 }
+
+
+%pseudo {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
