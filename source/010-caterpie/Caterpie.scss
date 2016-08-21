@@ -9,7 +9,9 @@
   > .head {
     background: map-get($colors, primary);
     border-radius: 50%;
-    box-shadow: inset -2px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow:
+      inset -2px 1px 10px rgba(0, 0, 0, 0.4),
+      inset 2px -16px 15px rgba(0, 0, 0, 0.4);
     height: 112px;
     margin-left: -66px;
     position: relative;
@@ -100,7 +102,10 @@
     > .mouth {
       background: map-get($colors, primary);
       border-radius: 50%;
-      box-shadow: inset 6px -3px 8px rgba(0, 0, 0, 0.4), inset -7px -9px 8px rgba(0, 0, 0, 0.4);
+      box-shadow:
+        inset 4px -14px 8px rgba(0, 0, 0, 0.2),
+        inset -8px -4px 10px rgba(0, 0, 0, 0.3),
+        2px -6px 9px rgba(0, 0, 0, 0.2);
       height: 42px;
       margin-left: -49px;
       position: absolute;
@@ -113,10 +118,23 @@
         @extend %pseudo;
         background: map-get($colors, primary);
         border-radius: 50%;
-        box-shadow: inset 2px -1px 6px rgba(0, 0, 0, 0.4), -3px -1px 3px rgba(0, 0, 0, 0.4);
+        box-shadow: inset -5px 5px 7px rgba(0, 0, 0, 0.4);
         height: 50px;
         left: 20px;
         top: 5px;
+        transform: rotate(90deg);
+        width: 28px;
+      }
+
+      &:after {
+        @extend %pseudo;
+        border-radius: 50%;
+        border-left: 4px solid rgba(0,0,0,0.2);
+        border-top: 4px solid rgba(0,0,0,0.2);
+        box-shadow: -2px -1px 6px rgba(0, 0, 0, 0.4);
+        height: 50px;
+        left: 20px;
+        bottom: -13px;
         transform: rotate(90deg);
         width: 28px;
       }
