@@ -1,7 +1,7 @@
 # React components for displaying Pokémon with pure CSS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/joker-solutions/joker-pokemons-component.svg?style=flat-square)](https://github.com/joker-solutions/joker-pokemons-component/issues)
+[![issues](https://img.shields.io/github/issues/joker-solutions/joker-pokemon-pure-css.svg?style=flat-square)](https://github.com/joker-solutions/joker-pokemon-pure-css/issues)
 
 ## Install
 
@@ -42,7 +42,7 @@ npm start
 
 ## Log
 
-Check [Releases](https://github.com/joker-solutions/joker-pokemons-component/releases) for detailed changelog.
+Check [Releases](https://github.com/joker-solutions/joker-pokemon-pure-css/releases) for detailed changelog.
 
 ## License
 
