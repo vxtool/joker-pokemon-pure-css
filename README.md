@@ -1,4 +1,4 @@
-# Joker Pokemons Component
+# React components for displaying Pokémon with pure CSS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
 [![issues](https://img.shields.io/github/issues/joker-solutions/joker-pokemons-component.svg?style=flat-square)](https://github.com/joker-solutions/joker-pokemons-component/issues)
