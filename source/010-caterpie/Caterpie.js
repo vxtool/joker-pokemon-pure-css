@@ -13,7 +13,14 @@ class Caterpie extends Component {
             <div className="mouth"></div>
           </div>
           <div className="body">
-
+            <div className="body-item1">
+              <div className="hands"></div>
+            </div>
+            <div className="body-item2"></div>
+            <div className="body-item3"></div>
+            <div className="body-item4"></div>
+            <div className="body-item5"></div>
+            <div className="tail"></div>
           </div>
         </div>
       </div>

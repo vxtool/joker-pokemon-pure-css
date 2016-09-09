@@ -21,19 +21,6 @@ const App = () => (
   <div className="container">
     <h1 className="title">Pokémons</h1>
     <Caterpie />
-    <Metapod />
-    <Weedle />
-    <Kakuna />
-    <Jigglypuff />
-    <Diglett />
-    <Voltorb />
-    <Electrode />
-    <Exeggcute />
-    <Koffing />
-    <Eevee />
-    <Vaporeon />
-    <Jolteon />
-    <Flareon />
   </div>
 )
 
