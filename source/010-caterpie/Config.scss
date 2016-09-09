@@ -20,3 +20,147 @@ $colors: (
 %horn {
   background: map-get($colors, horn);
 }
+
+// Animations
+@keyframes shakeTheBody {
+  25% {
+    left: 40%;
+    top: 30px;
+  }
+
+  50% {
+    left: 43%;
+    top: 36px;
+  }
+
+  75% {
+    left: 46%;
+    top: 30px;
+  }
+
+  100% {
+    left: 43%;
+    top: 36px;
+  }
+}
+
+@keyframes shakeTheBodyTwo {
+  25% {
+    left: 48%;
+    top: -8px;
+  }
+
+  50% {
+    left: 50%;
+    top: -5px;
+  }
+
+  75% {
+    left: 53%;
+    top: -8px;
+  }
+
+  100% {
+    left: 50%;
+    top: -5px;
+  }
+}
+
+
+@keyframes shakeTheBodyThree {
+  25% {
+    left: 48%;
+    top: 48px;
+  }
+
+  50% {
+    left: 50%;
+    top: 52px;
+  }
+
+  75% {
+    left: 53%;
+    top: 48px;
+  }
+
+  100% {
+    left: 50%;
+    top: 52px;
+  }
+}
+
+@keyframes shakeTheBodyFour {
+  25% {
+    left: 48%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  75% {
+    left: 52%;
+  }
+
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes shakeTheBodyFive {
+  25% {
+    left: 45%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  75% {
+    left: 52%;
+  }
+
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes shakeTheBodySix {
+  25% {
+    left: 43%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  75% {
+    left: 52%;
+  }
+
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes shakeTheTail {
+  25% {
+    left: 43%;
+    transform: rotate(20deg);
+  }
+
+  50% {
+    left: 50%;
+    transform: rotate(40deg);
+  }
+
+  75% {
+    left: 50%;
+    transform: rotate(60deg);
+  }
+
+  100% {
+    left: 50%;
+    transform: rotate(40deg);
+  }
+}

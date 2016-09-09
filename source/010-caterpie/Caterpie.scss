@@ -5,6 +5,9 @@
   @extend %size;
 
   > .head {
+    animation-duration: 3s;
+    animation-name: shakeTheBody;
+    animation-iteration-count: infinite;
     background: map-get($colors, primary);
     border-radius: 50%;
     box-shadow:
@@ -149,6 +152,9 @@
     z-index: 1;
 
     > .body-item1 {
+      animation-duration: 3s;
+      animation-name: shakeTheBodyTwo;
+      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -224,6 +230,9 @@
     }
 
     > .body-item2 {
+      animation-duration: 3s;
+      animation-name: shakeTheBodyThree;
+      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -257,6 +266,12 @@
     }
 
     > .body-item3 {
+      animation-duration: 3s;
+      animation-name: shakeTheBodyFour;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
+      animation-name: shakeTheBodyFour;
+      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -281,6 +296,9 @@
     }
 
     > .body-item4 {
+      animation-duration: 3s;
+      animation-name: shakeTheBodyFive;
+      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -297,6 +315,9 @@
     }
 
     > .body-item5 {
+      animation-duration: 3s;
+      animation-name: shakeTheBodySix;
+      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -313,15 +334,19 @@
     }
 
     > .tail {
+      animation-duration: 3s;
+      animation-name: shakeTheTail;
+      animation-iteration-count: infinite;
       background: map-get($colors, secundary);
       border-radius: 50%;
       display: inline-block;
       height: 70px;
-      margin-left: 58px;
+      margin-left: 36px;
       position: absolute;
       left: 50%;
-      top: 46px;
+      top: 36px;
       transform: rotate(36deg);
+      transform-origin: 0% bottom;
       width: 20px;
     }
   }
