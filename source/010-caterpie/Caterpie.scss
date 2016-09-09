@@ -340,14 +340,23 @@
       background: map-get($colors, secundary);
       border-radius: 50%;
       display: inline-block;
-      height: 70px;
-      margin-left: 36px;
+      height: 50px;
+      margin-left: 50px;
       position: absolute;
       left: 50%;
-      top: 36px;
+      top: 50px;
       transform: rotate(36deg);
       transform-origin: 0% bottom;
       width: 20px;
+
+      &:before {
+        @extend %pseudo;
+        border: 10px solid transparent;
+        border-top: 34px solid map-get($colors, secundary);;
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+      }
     }
   }
 }
