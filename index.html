@@ -5,14 +5,19 @@
     <title>Pokemons</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-      <script type="text/javascript">
-        // to identify if javascript is active
-        var tagHtml = document.getElementsByTagName("html")[0];
-            tagHtml.className = tagHtml.className.replace('no-js', 'js');
-      </script>
-  </head>
+    <script type="text/javascript">
+      // to identify if javascript is active
+      var tagHtml = document.getElementsByTagName("html")[0];
+          tagHtml.className = tagHtml.className.replace('no-js', 'js');
+    </script>
+    <style type="text/css" media="screen">
+      .caterpie {
+        background: transparent url("resources/010-caterpie.png") repeat scroll 51% 33% / 360% auto;
+      }
+    </style>
+</head>
   <body>
     <div data-js="app"></div>
-    <script src="dist/bundle.js"></script>
+    <script src="/dist/bundle.js"></script>
   </body>
 </html>
