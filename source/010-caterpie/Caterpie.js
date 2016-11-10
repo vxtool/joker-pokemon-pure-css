@@ -4,6 +4,7 @@ import './Caterpie.scss';
 class Caterpie extends Component {
   render() {
     return (
+      <div>
       <div className="pokemon">
         <div className="caterpie">
           <div className="head">
@@ -13,9 +14,14 @@ class Caterpie extends Component {
             <div className="mouth"></div>
           </div>
           <div className="body">
-            <div className="body-item1">
-              <div className="hands"></div>
+            <div className="belly">
+              <div className="belly-item1"></div>
+              <div className="belly-item2"></div>
+              <div className="belly-item3"></div>
+              <div className="hands1"></div>
+              <div className="hands2"></div>
             </div>
+            <div className="body-item1"></div>
             <div className="body-item2"></div>
             <div className="body-item3"></div>
             <div className="body-item4"></div>
@@ -23,6 +29,10 @@ class Caterpie extends Component {
             <div className="tail"></div>
           </div>
         </div>
+      </div>
+      <div className="pokemon">
+        <div className="caterpie caterpie2"></div>
+      </div>
       </div>
     );
   }
