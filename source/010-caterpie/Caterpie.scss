@@ -147,14 +147,18 @@
   }
 
   > .body {
+    animation-duration: 3s;
+    animation-name: shakeTheBodyTwo;
+    animation-iteration-count: infinite;
+    margin-left: -65px;
     position: relative;
+    left: 50%;
+    top: -5px;
     text-align: center;
+    width: 120px;
     z-index: 1;
 
     > .belly {
-      animation-duration: 3s;
-      animation-name: shakeTheBodyTwo;
-      animation-iteration-count: infinite;
       position: relative;
       z-index: 6;
 
@@ -166,11 +170,12 @@
         border-radius: 50%;
         display: inline-block;
         height: 70px;
-        margin-left: -47px;
+        margin-left: -58px;
         position: absolute;
         left: 50%;
-        top: 33px;
+        top: 18px;
         width: 80px;
+        z-index: 3;
       }
 
       > .belly-item2 {
@@ -181,11 +186,12 @@
         border-radius: 50%;
         display: inline-block;
         height: 50px;
-        margin-left: -37px;
+        margin-left: -45px;
         position: absolute;
         left: 50%;
-        top: 77px;
+        top: 78px;
         width: 65px;
+        z-index: 2;
       }
 
       > .belly-item3 {
@@ -193,17 +199,21 @@
         box-shadow:
           inset -2px 1px 10px rgb(213, 182, 93),
           inset 2px -16px 15px rgb(213, 182, 93);
-        border-radius: 40%;
+        border-radius: 50%;
         display: inline-block;
         height: 50px;
-        margin-left: -28px;
+        margin-left: -32px;
         position: absolute;
         left: 50%;
         top: 100px;
-        width: 50px;
+        transform: rotate(-33deg);
+        width: 51px;
       }
 
       > .hands1 {
+        position: relative;
+        z-index: 3;
+
         &:before {
           @extend %pseudo;
           background: map-get($colors, secundary);
@@ -232,6 +242,10 @@
       }
 
       > .hands2 {
+        position: relative;
+        top: 40px;
+        z-index: 3;
+
         &:before {
           @extend %pseudo;
           background: map-get($colors, secundary);
@@ -261,9 +275,6 @@
     }
 
     > .body-item1 {
-      animation-duration: 3s;
-      animation-name: shakeTheBodyTwo;
-      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -298,9 +309,6 @@
     }
 
     > .body-item2 {
-      animation-duration: 3s;
-      animation-name: shakeTheBodyThree;
-      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -317,12 +325,6 @@
     }
 
     > .body-item3 {
-      animation-duration: 3s;
-      animation-name: shakeTheBodyFour;
-      animation-iteration-count: infinite;
-      animation-duration: 3s;
-      animation-name: shakeTheBodyFour;
-      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -339,9 +341,6 @@
     }
 
     > .body-item4 {
-      animation-duration: 3s;
-      animation-name: shakeTheBodyFive;
-      animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
       box-shadow:
@@ -359,7 +358,7 @@
 
     > .body-item5 {
       animation-duration: 3s;
-      animation-name: shakeTheBodySix;
+      animation-name: shakeTheBodyFive;
       animation-iteration-count: infinite;
       background: map-get($colors, primary);
       border-radius: 50%;
