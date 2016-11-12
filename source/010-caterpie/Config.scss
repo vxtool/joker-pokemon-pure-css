@@ -66,47 +66,6 @@ $colors: (
   }
 }
 
-
-@keyframes shakeTheBodyThree {
-  25% {
-    left: 48%;
-    top: 48px;
-  }
-
-  50% {
-    left: 50%;
-    top: 52px;
-  }
-
-  75% {
-    left: 53%;
-    top: 48px;
-  }
-
-  100% {
-    left: 50%;
-    top: 52px;
-  }
-}
-
-@keyframes shakeTheBodyFour {
-  25% {
-    left: 48%;
-  }
-
-  50% {
-    left: 50%;
-  }
-
-  75% {
-    left: 52%;
-  }
-
-  100% {
-    left: 50%;
-  }
-}
-
 @keyframes shakeTheBodyFive {
   25% {
     left: 45%;
