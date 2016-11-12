@@ -24,6 +24,7 @@
     > .horn {
       @extend %horn;
       border-radius: 30% 30% 50% 50%;
+      box-shadow: inset 1px -9px 4px rgba(0, 0, 0, 0.2);
       height: 26px;
       margin-left: -27px;
       position: absolute;
@@ -36,8 +37,8 @@
       &:before {
         @extend %pseudo;
         @extend %horn;
-        border-radius: 90% 90% 50% 50%;
-        box-shadow: inset 0 -4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 80% 80% 40% 40%;
+        box-shadow: inset 1px -3px 3px rgba(0, 0, 0, 0.2);
         height: 58px;
         left: -26px;
         top: -39px;
@@ -48,8 +49,8 @@
       &:after {
         @extend %pseudo;
         @extend %horn;
-        border-radius: 50% 50% 90% 90%;
-        box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 40% 40% 80% 80%;
+        box-shadow: inset 1px 5px 4px rgba(0, 0, 0, 0.2);
         height: 56px;
         right: -26px;
         top: -25px;
@@ -394,7 +395,7 @@
       &:before {
         @extend %pseudo;
         border: 10px solid transparent;
-        border-top: 34px solid map-get($colors, secundary);;
+        border-top: 34px solid map-get($colors, secundary);
         position: absolute;
         bottom: -30px;
         left: 0;
