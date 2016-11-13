@@ -21,6 +21,7 @@ const App = () => (
   <div className="container">
     <h1 className="title">Pokémons</h1>
     <Caterpie />
+    <Metapod />
   </div>
 )
 

@@ -125,9 +125,9 @@
         background: map-get($colors, primary);
         border-radius: 50%;
         box-shadow: inset -5px 5px 7px rgba(0, 0, 0, 0.4);
-        height: 50px;
+        height: 44px;
         left: 20px;
-        top: 5px;
+        top: 11px;
         transform: rotate(90deg);
         width: 28px;
       }
@@ -138,7 +138,7 @@
         border-left: 4px solid rgba(0,0,0,0.2);
         border-top: 4px solid rgba(0,0,0,0.2);
         box-shadow: -2px -1px 6px rgba(0, 0, 0, 0.4);
-        height: 50px;
+        height: 44px;
         left: 20px;
         bottom: -13px;
         transform: rotate(90deg);
@@ -176,7 +176,6 @@
         left: 50%;
         top: 18px;
         width: 80px;
-        z-index: 3;
 
         &:before {
           @extend %pseudo;
@@ -192,7 +191,7 @@
           left: 50%;
           top: 57px;
           width: 65px;
-          z-index: 2;
+          z-index: -1;
         }
 
         &:after {
@@ -210,6 +209,7 @@
           top: 85px;
           transform: rotate(-33deg);
           width: 51px;
+          z-index: -2;
         }
       }
 

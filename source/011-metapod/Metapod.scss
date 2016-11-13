@@ -1,4 +1,9 @@
+@import '../Pokemon.scss';
+@import './Config.scss';
+
 .metapod {
+  @extend %size;
+
   > .head {
 
   }
