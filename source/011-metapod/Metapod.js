@@ -12,6 +12,7 @@ class Metapod extends Component {
               <div className="eye-right"></div>
             </div>
             <div className="body">
+              <div className="item1"></div>
               <div className="body-item1"></div>
               <div className="body-item2"></div>
               <div className="tail"></div>

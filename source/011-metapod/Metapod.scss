@@ -92,6 +92,40 @@
       width: 100px;
     }
 
+    > .item1 {
+      position: relative;
+      z-index: 2;
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border: 3px solid  map-get($colors, secundary);
+        border-radius: 15%;
+        box-shadow: inset -7px 4px 9px rgba(0, 0, 0, 0.2);
+        height: 34px;
+        margin-left: -49px;
+        top: 153px;
+        left: 50%;
+        transform: rotate(47deg);
+        width: 35px;
+        z-index: 2;
+      }
+
+      &:after {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border: 3px solid  map-get($colors, secundary);
+        border-radius: 10%;
+        box-shadow: inset -12px -9px 18px rgba(0,0,0,0.2);
+        height: 69px;
+        margin-left: -60px;
+        transform: perspective(36px) rotateX(-10deg) rotateY(0deg);
+        top: 174px;
+        left: 50%;
+        width: 69px;
+      }
+    }
+
     > .body-item1 {
 
       &:before {
@@ -149,11 +183,23 @@
       &:before {
         @extend %pseudo;
         background: map-get($colors, primary);
+        border-radius: 50%;
+        height: 40px;
+        margin-left: 42px;
+        top: 223px;
+        left: 50%;
+        width: 30px;
       }
 
       &:after {
         @extend %pseudo;
         background: map-get($colors, primary);
+        border-radius: 50%;
+        height: 20px;
+        margin-left: 56px;
+        top: 225px;
+        left: 50%;
+        width: 20px;
       }
     }
   }
