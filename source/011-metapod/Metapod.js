@@ -8,10 +8,13 @@ class Metapod extends Component {
         <div className="pokemon">
           <div className="metapod">
             <div className="head">
-
+              <div className="eye-left"></div>
+              <div className="eye-right"></div>
             </div>
             <div className="body">
-
+              <div className="body-item1"></div>
+              <div className="body-item2"></div>
+              <div className="tail"></div>
             </div>
           </div>
         </div>

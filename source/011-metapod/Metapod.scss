@@ -5,10 +5,156 @@
   @extend %size;
 
   > .head {
+    position: relative;
+
+    &:before {
+      @extend %pseudo;
+      background: map-get($colors, primary);
+      border-radius: 50%;
+      height: 40px;
+      margin-left: -33px;
+      top: 20px;
+      left: 50%;
+      transform: rotate(20deg);
+      width: 30px;
+    }
+
+    &:after {
+      @extend %pseudo;
+      background: map-get($colors, primary);
+      border-radius: 50%;
+      height: 160px;
+      margin-left: -56px;
+      top: 20px;
+      left: 50%;
+      transform: rotate(15deg);
+      width: 47px;
+    }
+
+    > .eye-left {
+      @extend %eye;
+      height: 33px;
+      margin-left: 16px;
+      left: 50%;
+      top: 100px;
+      transform: rotate(-10deg);
+      width: 20px;
+      z-index: 1;
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, secundary);
+        border-radius: 50%;
+        height: 10px;
+        top: 8px;
+        right: 0;
+        width: 10px;
+      }
+    }
+
+    > .eye-right {
+
+      &:before {
+        @extend %pseudo;
+      }
+
+      &:after {
+        @extend %pseudo;
+      }
+    }
 
   }
 
   > .body {
+    position: relative;
 
+    &:before {
+      @extend %pseudo;
+      background: map-get($colors, primary);
+      border-radius: 50%;
+      height: 160px;
+      margin-left: -20px;
+      top: 20px;
+      left: 50%;
+      transform: rotate(-20deg);
+      width: 47px;
+    }
+
+    &:after {
+      @extend %pseudo;
+      background: map-get($colors, primary);
+      border-radius: 25%;
+      height: 120px;
+      margin-left: -69px;
+      top: 130px;
+      left: 50%;
+      transform: rotate(21deg);
+      width: 100px;
+    }
+
+    > .body-item1 {
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border-radius: 25%;
+        height: 130px;
+        margin-left: -47px;
+        top: 120px;
+        left: 50%;
+        transform: rotate(-21deg);
+        width: 90px;
+      }
+
+      &:after {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border-radius: 50%;
+        height: 60px;
+        margin-left: 30px;
+        top: 143px;
+        left: 50%;
+        transform: rotate(-20deg);
+        width: 20px;
+      }
+    }
+
+    > .body-item2 {
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border-radius: 50%;
+        height: 130px;
+        margin-left: -57px;
+        top: 148px;
+        left: 50%;
+        width: 114px;
+      }
+
+      &:after {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border-radius: 50%;
+        height: 80px;
+        margin-left: -32px;
+        top: 202px;
+        left: 50%;
+        width: 100px;
+      }
+    }
+
+    > .tail {
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+      }
+
+      &:after {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+      }
+    }
   }
 }

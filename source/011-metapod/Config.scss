@@ -1,7 +1,12 @@
 $colors: (
-  primary: #8dc961,
-  secundary: #ede582,
-  horn: #f68845,
-  eye: #000,
-  eyeLight: #73746a
+  primary: #93d548,
+  secundary: #274114,
+  eyeLight: #fff
 );
+
+%eye {
+  background: map-get($colors, eyeLight);
+  border-radius: 50%;
+  border: 2px solid map-get($colors, secundary);
+  position: absolute;
+}
