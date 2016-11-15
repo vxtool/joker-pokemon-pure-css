@@ -141,6 +141,30 @@
       }
     }
 
+    > .item2 {
+      position: relative;
+      z-index: 2;
+
+      &:before {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+        border: 3px solid  map-get($colors, secundary);
+        border-radius: 10%;
+        box-shadow: inset -12px -9px 18px rgba(0, 0, 0, 0.2);
+        height: 14px;
+        margin-left: -50px;
+        transform: perspective(10px) rotateX(-10deg) rotateY(0deg);
+        top: 235px;
+        left: 50%;
+        width: 65px;
+      }
+
+      &:after {
+        @extend %pseudo;
+        background: map-get($colors, primary);
+      }
+    }
+
     > .body-item1 {
 
       &:before {
