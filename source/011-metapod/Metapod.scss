@@ -162,6 +162,15 @@
       &:after {
         @extend %pseudo;
         background: map-get($colors, primary);
+        border: 3px solid  map-get($colors, secundary);
+        border-radius: 10%;
+        box-shadow: inset -12px -9px 18px rgba(0, 0, 0, 0.2);
+        height: 72px;
+        margin-left: 0px;
+        transform: perspective(102px) rotate(15deg) rotateX(15deg) rotateY(17deg);
+        top: 172px;
+        left: 50%;
+        width: 53px;
       }
     }
 
