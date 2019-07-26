@@ -1,7 +1,12 @@
 # React components for displaying Pokémon with pure CSS
 
 [![licence mit](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://hemersonvianna.mit-license.org/)
-[![issues](https://img.shields.io/github/issues/joker-solutions/joker-pokemon-pure-css.svg?style=flat-square)](https://github.com/joker-solutions/joker-pokemon-pure-css/issues)
+[![GitHub issues](https://img.shields.io/github/issues/org-victorinox/joker-pokemon-pure-css.svg)](https://github.com/org-victorinox/joker-pokemon-pure-css/issues)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/org-victorinox/joker-pokemon-pure-css.svg)
+![GitHub Release Date](https://img.shields.io/github/release-date/org-victorinox/joker-pokemon-pure-css.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/org-victorinox/joker-pokemon-pure-css.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/org-victorinox/joker-pokemon-pure-css.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/org-victorinox/joker-pokemon-pure-css/total.svg)
 
 ## Install
 
@@ -42,7 +47,7 @@ npm start
 
 ## Log
 
-Check [Releases](https://github.com/joker-solutions/joker-pokemon-pure-css/releases) for detailed changelog.
+Check [Releases](https://github.com/org-victorinox/joker-pokemon-pure-css/releases) for detailed changelog.
 
 ## License
 
